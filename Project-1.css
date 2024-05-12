@@ -1,0 +1,540 @@
+
+/* Body color start */
+.bg {
+  background-color: #1B2631;
+  /* background-color: rgba(42, 23, 152, 0.737); */
+}
+
+/* Body color end */
+
+/* Navbar name start */
+.te {
+  color: #fff;
+  font-weight: 500;
+
+  font-size: 2.5rem;
+  font-family: "Protest Riot", sans-serif;
+}
+
+.ab{
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: 500;
+  font-family: "Protest Riot", sans-serif;
+
+}
+/* Navbar name end */
+
+/* To hide Horizontal scrollbar start*/
+body {
+  overflow-x: hidden;
+}
+
+/* To hide Horizontal scrollbar end*/
+
+/* Navbar start */
+
+.btn{
+  font-size: 1.7rem;
+}
+.btn-outline-primary {
+  color: #fff;
+  background-color: transparent;
+  background-image: none;
+  border-color: #7cc;
+}
+
+.btn-outline-primary:hover {
+  color: #222;
+  background-color: #8ad3d3;
+  border-color: #7cc
+}
+
+.btn-outline-primary:focus,
+.btn-outline-primary.focus {
+  box-shadow: 0 0 0 .2rem rgba(119, 204, 204, 0.5)
+}
+
+.btn-outline-primary.disabled,
+.btn-outline-primary:disabled {
+  color: #7cc;
+  background-color: transparent
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.show>.btn-outline-primary.dropdown-toggle {
+  color: #212529;
+  background-color: #8ad3d3;
+  border-color: #7cc
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus,
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+.show>.btn-outline-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 .2rem rgba(119, 204, 204, 0.5);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+}
+
+.btn-outline-dark {
+  color: #7cc;
+  background-color: transparent;
+  background-image: none;
+  border-color: #7cc;
+}
+
+.btn-outline-dark:hover {
+  color: #222;
+  background-color: #8ad3d3;
+  border-color: #7cc;
+}
+
+.btn-outline-dark:focus,
+.btn-outline-dark.focus {
+  box-shadow: 0 0 0 .2rem rgba(119, 204, 204, 0.5)
+}
+
+.btn-outline-dark.disabled,
+.btn-outline-dark:disabled {
+  color: #7cc;
+  background-color: transparent
+}
+
+.btn-outline-dark:not(:disabled):not(.disabled):active,
+.btn-outline-dark:not(:disabled):not(.disabled).active,
+.show>.btn-outline-dark.dropdown-toggle {
+  color: #212529;
+  background-color: #8ad3d3;
+  border-color: #7cc
+}
+
+.btn-outline-dark:not(:disabled):not(.disabled):active:focus,
+.btn-outline-dark:not(:disabled):not(.disabled).active:focus,
+.show>.btn-outline-dark.dropdown-toggle:focus {
+  box-shadow: 0 0 0 .2rem rgba(119, 204, 204, 0.5)
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+}
+
+.navbar-toggler-icon {
+  background-color: #475460;
+  /* background-color: white;
+  /* color: white; */
+  border-radius: 20%; 
+  font-size: 2.8rem;
+}
+
+.bg-light {
+  background-color: #475460 !important;
+}
+
+.navbar-nav {
+  margin-left: 3rem;
+}
+
+/* Navbar end */
+
+/* Slider start */
+.d-block {
+  height: 550px;
+  width: 80%;
+  margin-top: 20px;
+}
+
+/* Slider end */
+
+/* Header for every page start */
+.head {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 7rem;
+  margin-top: 2.2rem
+  /* font-family: 'Roboto Slab', serif; */
+  ;
+}
+
+.cont {
+  color: white;
+  text-align: justify;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.btn-outline-dark {
+  color: #fff;
+}
+
+/* Header for every page end */
+
+
+/* Slider start */
+.d-blocko {
+  height: 450px;
+}
+
+/* Slider end */
+
+/* Offer card start */
+
+.offhead{
+  font-size: 7.8rem;
+
+}
+
+.offdown{
+  font-size: 5.8rem;
+}
+
+
+.card {
+  width: 35rem;
+  height: 52rem;
+  border-radius: 20px;
+  overflow: hidden;
+  border: .8rem solid #fff;
+  position: relative;
+  margin-right: 2rem;
+  float: inline-end;
+  margin-bottom: 2rem;
+  display: flex;
+}
+.card-text{
+  font-size: 1.8rem;
+}
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1.5rem;
+}
+
+.card-body {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  position: absolute;
+  background: #1f3d4748;
+  backdrop-filter: blur(5px);
+  border-radius: 1.5rem;
+  color: #fff;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 2s;
+}
+
+.card:hover .card-body {
+  right: 0;
+
+}
+
+.card-title {
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+
+.card-btn {
+  color: #1f3d47;
+  width: 21rem;
+  background: #8fabba;
+  padding: 1rem 2rem;
+  border-radius: .5rem;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Offer card end */
+
+/* About us and services card start */
+.cardw {
+  width: 29rem;
+  height: 42.5rem;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #323f4bf9;    /*405263ed*/
+  border: .5rem solid #ffffff;
+  padding: 2rem 1.5rem;
+  transition: box-shadow .3s ease, transform .2s ease;
+  position: relative;
+  margin-right: 1.7rem;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.cardw-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform .2s ease, opacity .2s ease;
+}
+
+.cardw-avatar {
+  --size: 6rem;
+  background: linear-gradient(to top, #f1e1c1 0%, #fcbc97 100%);
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  transition: transform .2s ease;
+  margin-bottom: .1rem;
+}
+
+.cardw-social {
+  transform: translateY(200%);
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  opacity: 0;
+  transition: transform .2s ease, opacity .2s ease;
+}
+
+.cardw-social__item {
+  list-style: none;
+}
+
+.cardw-social__item svg {
+  display: block;
+  height: 1.8rem;
+  width: 1.8rem;
+  fill: #515F65;
+  cursor: pointer;
+  transition: fill 0.2s ease, transform 0.2s ease;
+}
+
+.cardw-title {
+  font-family: 'Roboto Slab', serif;
+  color: #ffffff;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+.cardw-subtitle {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.cardw:hover {
+  /* box-shadow: 0 -8px 8px 5px 5px #0976B4; */
+  box-shadow: 0 0 .8rem .6rem #0976B4;
+
+}
+
+.cardw:hover .cardw-info {
+  transform: translateY(-4%);
+}
+
+.cardw:hover .cardw-social {
+  transform: translateY(100%);
+  opacity: 1;
+}
+
+.cardw-social__item svg:hover {
+  fill: #232323;
+  transform: scale(1.1);
+}
+
+.cardw-avatar:hover {
+  transform: scale(1.1);
+}
+
+.out {
+  text-align: center;
+}
+
+.card-group {
+  margin-left: 2rem;
+}
+
+/* About us and services card end */
+
+/* Offer card start */
+.card-btn {
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: 2px solid rgb(61, 106, 255);
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background: transparent;
+  color: #fff;
+  overflow: hidden;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.card-btn:hover {
+  background: rgb(61, 106, 255);
+  box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.card-btn:hover::before {
+  -webkit-animation: sh02 0.5s 0s linear;
+  -moz-animation: sh02 0.5s 0s linear;
+  animation: sh02 0.5s 0s linear;
+}
+
+.card-btn::before {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  background: #fff;
+  box-shadow: 0 0 50px 30px #fff;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+@keyframes sh02 {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+
+.card-btn:active {
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+
+/* Offer Card end */
+
+/* Footer start */
+.footer-dark {
+  padding:5rem 0;
+  color:#f0f9ff;
+  background-color:#282d32;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:1.2rem;
+  font-weight:bold;
+  font-size:1.6rem;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:1.4rem;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.7;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.9;
+}
+.footer-dark .item.text {
+  margin-bottom:2rem;
+}
+.footer-dark .item.text p {
+  opacity:0.7;
+  margin-bottom:0;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:2.4rem;
+  opacity:1;
+  font-size:1.3rem;
+  margin-bottom:0;
+}
+
+
+.dk-footer-box-info .footer-social-link h3 {
+    color: #fff;
+    font-size: 2.4rem;
+    margin-bottom: 2.5rem; 
+  }
+  .dk-footer-box-info .footer-social-link ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; }
+  .dk-footer-box-info .footer-social-link li {
+    display: inline-block; }
+  .dk-footer-box-info .footer-social-link a i {
+    display: block;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 4rem;
+    background: #000;
+    margin-right: .5rem;
+    color: #fff; }
+    .dk-footer-box-info .footer-social-link a i.fa-facebook {
+      background-color: #3B5998; }
+    .dk-footer-box-info .footer-social-link a i.fa-twitter {
+      background-color: #55ACEE; }
+    .dk-footer-box-info .footer-social-link a i.fa-google-plus {
+      background-color: #DD4B39; }
+    .dk-footer-box-info .footer-social-link a i.fa-linkedin {
+      background-color: #0976B4; }
+    .dk-footer-box-info .footer-social-link a i.fa-instagram {
+      background-color: #B7242A; }
+
+.footer{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.foop{
+  font-size: 1.5rem;
+}
+/* Footer end */
